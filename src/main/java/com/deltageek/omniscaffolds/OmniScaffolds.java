@@ -11,18 +11,28 @@ public class OmniScaffolds {
     @Mod.Instance("OmniScaffolds")
     public static OmniScaffolds instance;
 
+    private OmniScaffoldsConfig config;
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
+        // network handling
 
+        // load config
+        config = new OmniScaffoldsConfig(event.getSuggestedConfigurationFile());
+        config.init();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
+        // UI
 
+        // Tile Entities
+
+        // Recipes
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-
+        // Respond to other mods
     }
 }
