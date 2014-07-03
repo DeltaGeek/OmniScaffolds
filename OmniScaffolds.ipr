@@ -50,6 +50,13 @@
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="David">
+      <words>
+        <w>omni</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OmniScaffolds.iml" filepath="$PROJECT_DIR$/OmniScaffolds.iml" />

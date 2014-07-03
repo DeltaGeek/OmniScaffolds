@@ -1,5 +1,6 @@
 package com.deltageek.omniscaffolds;
 
+import com.deltageek.omniscaffolds.config.OmniScaffoldsConfig;
 import com.deltageek.omniscaffolds.proxy.IProxy;
 import com.deltageek.omniscaffolds.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -24,8 +25,7 @@ public class OmniScaffolds {
         // network handling
 
         // load config
-        config = new OmniScaffoldsConfig(event.getSuggestedConfigurationFile());
-        config.init();
+        OmniScaffoldsConfig.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
